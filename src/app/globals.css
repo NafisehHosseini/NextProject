@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+}
+a{
+text-decoration: none;
+color: inherit;
+
+}
+.container{
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0px 60px;
+  
+ 
+}
+.dark {
+  transition: all 1s ease;
+    background-color: #000;
+color: #fff;
+ 
+}
+.Light{
+  transition: all 1s ease;
+  background-color: #fff;
+    color: #000;
+}

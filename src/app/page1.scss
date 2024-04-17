@@ -1,0 +1,48 @@
+.imghome {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    margin-top: 70px;
+  }
+
+  100% {
+    margin-top: 50px;
+  }
+}
+.containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+
+  gap: 100px;
+}
+.text {
+  // width: max-content;
+  font-size: 45px;
+  text-align: left;
+  background: linear-gradient(to bottom, #194c31, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-justify: inter-word;
+  float: left;
+}
+.btn {
+  padding: 20px;
+  background-color: #53c28b;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+  cursor: pointer;
+  float: left;
+  margin-top: 20px;
+}

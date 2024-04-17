@@ -1,0 +1,52 @@
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+
+}
+.items{
+display: flex;
+justify-content: space-between;
+align-items: center; 
+gap: 50px;
+
+}
+.links{
+ position: relative;
+  width: 400px;
+  height: 300px;   
+  background-repeat: repeat;
+    background-size: cover !important;
+  background-position: center !important;
+}
+.links:hover .span{
+ padding: 30px;
+transition: all 1s ease-in;
+color:green;
+}
+
+.span{
+    font-size: 22px;
+    font-weight: bold;
+    transition: all 1s ease-in;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.31);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    bottom:0px;
+
+}
+.links:nth-child(1){
+   background: url(/_next/static/media/home.fa70043e.jpg);
+    
+ 
+}
+.links:nth-child(2){
+   background: url("../../../public/login.png");
+    
+ 
+}

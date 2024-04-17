@@ -1,0 +1,26 @@
+.container{
+    direction: ltr;
+}
+.cattitle{
+    color:#53c28b
+}
+.items{
+   margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     flex-direction: row;
+}
+.img{
+    width: 400px;
+    height: 200px;
+}
+.content{
+   text-align: left;
+  width: 80%;
+  padding: 20px;
+}
+.title{ 
+    
+font-size: 30px;
+}

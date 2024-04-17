@@ -1,0 +1,28 @@
+.container{}
+.cattitle{
+    color:#53c28b
+}
+.items{
+   margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.items:nth-child(2n){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.img{
+    width: 60%;
+    height: 400px;
+}
+.content{
+   text-align: left;
+  width: 80%;
+  padding: 20px;
+}
+.title{ 
+    
+font-size: 30px;
+}

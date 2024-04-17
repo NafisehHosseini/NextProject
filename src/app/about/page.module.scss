@@ -1,0 +1,43 @@
+@keyframes fadeInAnimation {
+  0% {
+    margin-top: 40px;
+  }
+
+  100% {
+    margin-bottom: 50px;
+  }
+}
+
+.container {
+    text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+}
+.img {
+  filter: grayscale(50%);
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.ImgTxt {
+  position: absolute;
+  background-color: gray;
+  padding: 20px;
+  height: 50px;
+  font-size: 20px;
+  width: 100%;
+  bottom: 0px;
+  cursor: none;
+}
+.discription {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+}

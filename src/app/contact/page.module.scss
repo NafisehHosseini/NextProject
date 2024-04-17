@@ -1,0 +1,46 @@
+@keyframes fadeInAnimation {
+  0% {
+    transform:translateY(-15px);
+  }
+
+  100% {
+    transform:translateY(0px) scale();
+  }
+}
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+}
+.content{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: row;
+}
+.form{
+    width: 100%;
+}
+
+.text{
+    
+  width: 80%;
+  padding: 10px;
+  margin: 5px;
+  background: transparent;
+  color: #bbb;
+  outline: none;
+  border: 2px solid #bbb;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contactImg{
+
+    width: 100vw;
+    height: 500px;
+    object-fit: contain;
+     animation: fadeInAnimation infinite alternate ease 2s;
+
+}
+ 
